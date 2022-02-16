@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+  <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
     <a class="navbar-brand" href="#">Larisa &#38; Alexandru</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse"
       data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -10,13 +10,19 @@
     <div class="collapse navbar-collapse" id="navbar">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#">Despre <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#despre-section">
+            Despre
+            <span class="sr-only">(current)</span>
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Oamenii de suflet</a>
+          <a class="nav-link" href="#story-section">Oamenii de suflet</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Evenimentele</a>
+          <a class="nav-link" href="#evenimente-section">Evenimentele</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#end-section">Multumiri</a>
         </li>
       </ul>
     </div>

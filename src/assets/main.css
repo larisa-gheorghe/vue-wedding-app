@@ -4,9 +4,16 @@ header {
   height: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 800;
 }
 
 .card-title{
@@ -47,12 +54,24 @@ body {
   height: 200px;
 }
 
+.min-vh-80 {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
 #timer-photo {
   max-width: 100%;
 }
 
 #home-section {
   background-image: url("https://images.unsplash.com/photo-1603026198288-6a94fa57e2af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#end-section {
+  background-image: url("https://images.unsplash.com/photo-1513267000941-598abe7be16f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

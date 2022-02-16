@@ -9,10 +9,10 @@
   <section id="story-section">
     <story />
   </section>
-  <section class="evenimente-section">
+  <section id="evenimente-section">
     <evenimente />
   </section>
-  <section class="end-section">
+  <section id="end-section">
     <multumiri />
   </section>
 

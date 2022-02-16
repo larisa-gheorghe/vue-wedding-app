@@ -23,7 +23,7 @@
             <br>
             Slobozia, Ialomiţa
             <br>
-            <a class="btn btn-light" href="https://goo.gl/maps/8zToZRTAbucN93179" role="button">
+            <a class="btn btn-light font-weight-bold" href="https://goo.gl/maps/8zToZRTAbucN93179" role="button">
               Vezi harta...
             </a>
           </p>
@@ -43,7 +43,7 @@
             <br>
             Slobozia, Ialomiţa
             <br>
-            <a class="btn btn-light" href="https://goo.gl/maps/yR4H3AE5jfkgx46YA" role="button">
+            <a class="btn btn-light font-weight-bold" href="https://goo.gl/maps/yR4H3AE5jfkgx46YA" role="button">
               Vezi harta...
             </a>
           </p>
@@ -63,7 +63,7 @@
             <br>
             Amara, Ialomiţa
             <br>
-            <a class="btn btn-light" href="https://goo.gl/maps/hfo9X2GYci2djo4GA" role="button">
+            <a class="btn btn-light font-weight-bold" href="https://goo.gl/maps/hfo9X2GYci2djo4GA" role="button">
               Vezi harta...
             </a>
           </p>
