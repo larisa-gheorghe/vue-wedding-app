@@ -3,11 +3,11 @@
     <div class="row justify-content-lg-between align-items-center">
       <div class="col-md-6 mb-5 mb-md-0">
         <div class="pr-md-4 text-center">
-          <h1 class="font-secondary display-4">Ne casatorim!</h1>
-          <p class="lead font-weight-300 text-dark-gray opacity-8">Te invitam la nunta noastra!</p>
+          <h1 class="font-secondary display-4">Ne căsătorim!</h1>
+          <p class="lead font-weight-300 text-dark-gray opacity-8">Te invităm la nunta noastră!</p>
           <p class="mb-4">
-           Ne dorim din suflet sa ne poti fi alaturi si sa marcam impreuna ziua in care destinele
-           noastre vor merge pe acelasi drum.
+           Ne dorim din suflet să ne poţi fi alături şi să marcăm împreună ziua în care destinele
+           noastre vor merge pe acelaşi drum.
           </p>
           <div class="row text-center" id="timer">
             <time-item class="row" v-for="times in times" v-bind:time="times" :key="times.id">
