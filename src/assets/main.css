@@ -7,10 +7,13 @@ header {
 html {
   scroll-behavior: smooth;
 }
+
 body {
   font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
 }
+
+nav
 
 h1, h2, h3, h4, h5 {
   font-weight: 800;
