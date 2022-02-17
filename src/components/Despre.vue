@@ -16,7 +16,7 @@
         </div>
       </div>
       <div class="col-md-6">
-        <div class="pr-md-4">
+        <div class="pr-md-4 pl-sm-4">
           <svg version="1.1" id="p.svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
             y="0px" viewBox="0 0 980.2914 884.5557" enable-background="new 0 0 980.2914 884.5557"
             xml:space="preserve">
