@@ -18,6 +18,11 @@ body {
   text-align: center;
 }
 
+nav {
+  background-color: #cad2c5;
+  font-weight: 800;
+}
+
 h1, h2, h3, h4, h5 {
   font-weight: 800;
 }
@@ -94,23 +99,29 @@ section {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  /* box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2); */
+  text-shadow: 0 0 0.9em #cad2c5;
 }
 
 #home-section svg, #story-section svg {
   fill: white;
 }
 
+#home-section h1 {
+  font-size: 20vw;
+}
+
 #story-section {
-  background-color: #ede0d4;
+  background-color: #edede9;
 }
 
 #despre-section svg {
-  fill: #ede0d4;
+  fill: #edede9;
 }
 
 #end-section {
   background-image: url("https://images.unsplash.com/photo-1513267000941-598abe7be16f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80");
-  background-position: center;
+  background-position: 75% 25%;
   background-repeat: no-repeat;
   background-size: cover;
 }
