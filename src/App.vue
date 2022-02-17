@@ -1,18 +1,21 @@
 <template>
-  <section id="home-section">
-    <app-header />
-    <home />
+  <app-header />
+  <section id="home-section" class="spacer-one-top-lg">
+    <home class="full-screen-height"/>
+    <curved-decoration />
   </section>
-  <section id="despre-section">
-    <despre />
+  <section id="despre-section" class="spacer-one-top-lg">
+    <despre class="full-screen-height"/>
+    <curved-decoration />
   </section>
-  <section id="story-section">
-    <story />
+  <section id="story-section" class="spacer-one-top-lg">
+    <story class="full-screen-height"/>
+    <curved-decoration />
   </section>
-  <section id="evenimente-section">
+  <section id="evenimente-section" class="spacer-one-top-lg">
     <evenimente />
   </section>
-  <section id="end-section">
+  <section id="end-section" class="spacer-one-top-lg">
     <multumiri />
   </section>
 
@@ -25,6 +28,7 @@ import Despre from './components/Despre.vue';
 import Story from './components/Story.vue';
 import Evenimente from './components/Evenimente.vue';
 import Multumiri from './components/Multumiri.vue';
+import CurvedDecoration from './components/CurvedDecoration.vue';
 
 export default {
   name: 'App',
@@ -35,6 +39,7 @@ export default {
     Story,
     Evenimente,
     Multumiri,
+    CurvedDecoration,
   },
 };
 </script>
