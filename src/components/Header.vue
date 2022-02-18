@@ -1,6 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
     <a class="navbar-brand" href="#">
+      <i class="fa-solid fa-heart text-white"></i>
       Larisa &#38; Alexandru
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse"

@@ -16,7 +16,7 @@
     <evenimente />
   </section>
   <section id="end-section" class="spacer-one-top-lg">
-    <multumiri />
+    <confirmare />
   </section>
 
 </template>
@@ -27,7 +27,7 @@ import Home from './components/Home.vue';
 import Despre from './components/Despre.vue';
 import Story from './components/Story.vue';
 import Evenimente from './components/Evenimente.vue';
-import Multumiri from './components/Multumiri.vue';
+import Confirmare from './components/Confirmare.vue';
 import CurvedDecoration from './components/CurvedDecoration.vue';
 
 export default {
@@ -38,7 +38,7 @@ export default {
     Despre,
     Story,
     Evenimente,
-    Multumiri,
+    Confirmare,
     CurvedDecoration,
   },
 };
