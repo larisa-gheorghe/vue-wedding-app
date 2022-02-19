@@ -18,14 +18,6 @@
           Vă rugăm să ne confirmați prezența <br>până pe data de 18 iunie 2022:
         </p>
       </div>
-      <div class="col-12">
-        <!-- Modal Close Button -->
-        <div class="font-weight-300 text-white mb-2">
-          <p id="custom-tooltip">copied!</p>
-          <button id="close" class="btn btn-sm text-white-50" @click.prevent="closeButton">
-            <i class="fas fa-times"></i></button>
-        </div>
-      </div>
       <div class="col-6">
         <p class="font-weight-300 text-white mb-2 text-right">
           Alexandru:
@@ -79,18 +71,11 @@ export default {
     copyText(id) {
       const str = document.querySelector(id);
       const text = str.textContent;
-      console.log(text);
       navigator.clipboard.writeText(text).then(() => {
       /* clipboard successfully set */
       }, () => {
       /* clipboard write failed */
       });
-      document.getElementById('custom-tooltip').style.display = 'inline';
-      document.getElementById('close').style.display = 'inline';
-    },
-    closeButton() {
-      document.getElementById('custom-tooltip').style.display = 'none';
-      document.getElementById('close').style.display = 'none';
     },
   },
 };
