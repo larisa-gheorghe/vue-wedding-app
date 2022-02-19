@@ -127,6 +127,19 @@ section {
   background-size: cover;
 }
 
+#custom-tooltip {
+  display: none;
+  margin-left: 40px;
+  padding: 5px 12px;
+  background-color: white;
+  border-radius: 4px;
+  color: black;
+}
+
+#close {
+  display: none;
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   .full-screen-height {

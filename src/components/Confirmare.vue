@@ -18,14 +18,50 @@
           Vă rugăm să ne confirmați prezența <br>până pe data de 18 iunie 2022:
         </p>
       </div>
+      <div class="col-12">
+        <!-- Modal Close Button -->
+        <div class="font-weight-300 text-white mb-2">
+          <p id="custom-tooltip">copied!</p>
+          <button id="close" class="btn btn-sm text-white-50" @click.prevent="closeButton">
+            <i class="fas fa-times"></i></button>
+        </div>
+      </div>
       <div class="col-6">
-        <p class="font-weight-300 text-white mb-2">
-          Alexandru: 0766636217<br>Iulian Zaharia: 0736655540
+        <p class="font-weight-300 text-white mb-2 text-right">
+          Alexandru:
+          <br>
+          <span id="alex">0766636217</span>
+          <button class="btn btn-sm"
+            @click.prevent="copyText('#alex')">
+            <i class="fa-solid fa-copy text-white-50"></i>
+          </button>
+          <br>
+          Iulian Zaharia:
+          <br>
+          <span id="iulian">0736655540</span>
+          <button class="btn btn-sm"
+            @click.prevent="copyText('#iulian')">
+            <i class="fa-solid fa-copy text-white-50"></i>
+          </button>
           </p>
       </div>
       <div class="col-6">
-        <p class="font-weight-300 text-white mb-2">
-          Larisa: 0720058199<br>Emil Gheorghe: 0722391520
+        <p class="font-weight-300 text-white mb-2 text-left">
+          Larisa:
+          <br>
+          <span id="larisa">0720058199</span>
+          <button class="btn btn-sm"
+            @click.prevent="copyText('#larisa')">
+            <i class="fa-solid fa-copy text-white-50"></i>
+          </button>
+          <br>
+          Emil Gheorghe:
+          <br>
+          <span id="emil">0722391520</span>
+          <button class="btn btn-sm"
+            @click.prevent="copyText('#emil')">
+            <i class="fa-solid fa-copy text-white-50"></i>
+          </button>
         </p>
       </div>
     </div>
@@ -35,3 +71,27 @@
     2022, by LCG
   </footer>
 </template>
+
+<script>
+export default {
+  name: 'Confirmare',
+  methods: {
+    copyText(id) {
+      const str = document.querySelector(id);
+      const text = str.textContent;
+      console.log(text);
+      navigator.clipboard.writeText(text).then(() => {
+      /* clipboard successfully set */
+      }, () => {
+      /* clipboard write failed */
+      });
+      document.getElementById('custom-tooltip').style.display = 'inline';
+      document.getElementById('close').style.display = 'inline';
+    },
+    closeButton() {
+      document.getElementById('custom-tooltip').style.display = 'none';
+      document.getElementById('close').style.display = 'none';
+    },
+  },
+};
+</script>
