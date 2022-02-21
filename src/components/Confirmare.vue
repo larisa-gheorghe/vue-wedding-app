@@ -18,38 +18,24 @@
         <p class="font-weight-300 text-white mb-2 text-right">
           Alexandru:
           <br>
-          <span id="alex">0766636217</span>
-          <button class="btn btn-sm"
-            @click.prevent="copyText('#alex')">
-            <i class="fa-solid fa-copy text-white-50"></i>
-          </button>
+          <a class="text-white" href="tel:0766636217">0766636217</a>
           <br>
           Iulian Zaharia:
           <br>
-          <span id="iulian">0736655540</span>
-          <button class="btn btn-sm"
-            @click.prevent="copyText('#iulian')">
-            <i class="fa-solid fa-copy text-white-50"></i>
-          </button>
-          </p>
+          <a class="text-white" href="tel:0736655540">0736655540</a>
+          <br>
+        </p>
       </div>
       <div class="col-6">
         <p class="font-weight-300 text-white mb-2 text-left">
           Larisa:
           <br>
-          <span id="larisa">0720058199</span>
-          <button class="btn btn-sm"
-            @click.prevent="copyText('#larisa')">
-            <i class="fa-solid fa-copy text-white-50"></i>
-          </button>
+          <a class="text-white" href="tel:0720058199">0720058199</a>
           <br>
           Emil Gheorghe:
           <br>
-          <span id="emil">0722391520</span>
-          <button class="btn btn-sm"
-            @click.prevent="copyText('#emil')">
-            <i class="fa-solid fa-copy text-white-50"></i>
-          </button>
+          <a class="text-white" href="tel:0722391520">0722391520</a>
+          <br>
         </p>
       </div>
       <div class="col-12">
@@ -67,20 +53,3 @@
     2022, by LCG
   </footer>
 </template>
-
-<script>
-export default {
-  name: 'Confirmare',
-  methods: {
-    copyText(id) {
-      const str = document.querySelector(id);
-      const text = str.textContent;
-      navigator.clipboard.writeText(text).then(() => {
-      /* clipboard successfully set */
-      }, () => {
-      /* clipboard write failed */
-      });
-    },
-  },
-};
-</script>
