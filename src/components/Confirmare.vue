@@ -1,18 +1,14 @@
 <template>
   <div class="container">
-    <div class="row min-vh-80 align-items-center position-relative text-center">
+    <div class="row min-vh-80 align-items-center position-relative text-center pb-5">
       <div class="col-12">
-        <h1 class="display-2 text-black mb-4">De aici începe totul...</h1>
-        <p class="font-weight-300 text-black lead mb-5">
+        <h1 class="display-2 text-white mb-4">De aici începe totul...</h1>
+        <p class="font-weight-300 text-white lead mb-5">
           "Nu știu unde duce drumul meu, dar merg mai bine când te țin de mână." - Alfred de Musset
-          <br><br>
-          Mulţumim!
-          <br>
-          Larisa &#38; Alexandru
         </p>
       </div>
     </div>
-    <div class="row pb-4">
+    <div class="row pb-4 shadow-bg">
       <div class="col-12">
         <p class="font-weight-300 text-white lead mb-2">
           Vă rugăm să ne confirmați prezența <br>până pe data de 18 iunie 2022:
@@ -54,6 +50,14 @@
             @click.prevent="copyText('#emil')">
             <i class="fa-solid fa-copy text-white-50"></i>
           </button>
+        </p>
+      </div>
+      <div class="col-12">
+        <p class="font-weight-300 text-white mb-2">
+          <br>
+          Mulţumim!
+          <br>
+          Larisa &#38; Alexandru
         </p>
       </div>
     </div>

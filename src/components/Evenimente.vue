@@ -35,7 +35,7 @@
             <img src="../../public/assets/img/church.jpg" alt="">
           </div>
           <h5 class="mb-0">Cununia religioasă</h5>
-          <h6 class="mb-5">2 Iulie 2022, 18:00</h6>
+          <h6 class="mb-5">2 Iulie 2022, 17:00</h6>
           <p class="text-align-center">
             Biserica „Naşterea Maicii Domnului”
             <br>
@@ -55,7 +55,7 @@
             <img src="../../public/assets/img/party.jpg" alt="">
           </div>
           <h5 class="mb-0">Petrecerea</h5>
-          <h6 class="mb-5">2 Iulie 2022, 20:00</h6>
+          <h6 class="mb-5">2 Iulie 2022, 19:00</h6>
           <p class="text-align-center">
             Evergreen Events
             <br>

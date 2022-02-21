@@ -107,7 +107,6 @@ section {
 }
 
 #home-section h1 {
-  /* font-size: 11vw; */
   font-size: min(max(16px, 7vw), 70px);
   /* font-size: max(11vh, 11vw); */
 }
@@ -121,7 +120,8 @@ section {
 }
 
 #end-section {
-  background-image: url('../../public/assets/img/holding-hands.jpg');
+  /* background-image: url('../../public/assets/img/holding-hands.jpg'); */
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1) ), url('../../public/assets/img/holding-hands.jpg');
   background-position: 75% 25%;
   background-repeat: no-repeat;
   background-size: cover;

@@ -26,7 +26,7 @@
           <a class="nav-link" href="#evenimente-section">Evenimentele</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#end-section">Multumiri</a>
+          <a class="nav-link" href="#end-section">Confirmare</a>
         </li>
       </ul>
     </div>
