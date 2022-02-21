@@ -19,7 +19,7 @@
       <div class="col-lg-12 text-center">
         <div class="mb-3 pb-3">
           <h5 class="mb-0">Nașii</h5>
-          <span class="small text-dark-gray opacity-8">Daniela și Alexandru Vida</span>
+          <span class="text-dark-gray opacity-8">Daniela și Alexandru Vida</span>
         </div>
       </div>
     </div>
@@ -32,8 +32,12 @@
       <div class="col-lg-12 text-center">
         <div class="mb-3 pb-3">
           <h5 class="mb-0">Părinţii</h5>
-          <span class="small text-dark-gray opacity-8">
-            Luminiţa și Emil Gheorghe &#38; Mirela și Iulian Zaharia
+          <div class="col-6">
+          </div>
+          <span class="text-dark-gray opacity-8">
+            Mirela și Iulian Zaharia
+            <br>
+            Luminiţa și Emil Gheorghe
           </span>
         </div>
       </div>
