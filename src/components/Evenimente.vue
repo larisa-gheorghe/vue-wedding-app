@@ -17,13 +17,13 @@
           <h5 class="mb-0">Cununia civilă</h5>
           <h6 class="mb-5">2 Iulie 2022, 13:00</h6>
           <p class="text-align-center">
-            Casa Municipală de Cultură „Nicolae Rotaru”
+            Evergreen Events
             <br>
-            Bulevardul Unirii Nr. 6
+            Aleea Plajei Nr. 1
             <br>
-            Slobozia, Ialomiţa
+            Amara, Ialomiţa
             <br>
-            <a class="btn btn-light font-weight-bold" href="https://goo.gl/maps/gNkpyWdbc4tUZoR26" role="button">
+            <a class="btn btn-light font-weight-bold" href="https://goo.gl/maps/hfo9X2GYci2djo4GA" role="button">
               Vezi harta...
             </a>
           </p>
