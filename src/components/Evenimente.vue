@@ -17,7 +17,7 @@
           <h5 class="mb-0">Cununia civilă</h5>
           <h6 class="mb-5">2 Iulie 2022, 13:00</h6>
           <p class="text-align-center">
-            Evergreen Events
+            Evergreen Events, Ponton
             <br>
             Aleea Plajei Nr. 1
             <br>
@@ -57,7 +57,7 @@
           <h5 class="mb-0">Petrecerea</h5>
           <h6 class="mb-5">2 Iulie 2022, 19:00</h6>
           <p class="text-align-center">
-            Evergreen Events
+            Evergreen Events, Pavilion Sole
             <br>
             Aleea Plajei Nr. 1
             <br>
