@@ -4,6 +4,5 @@ module.exports = {
     manifestOptions: {
       short_name: 'Wedding',
     },
-  },
-  publicPath: '/vue-wedding-app/',
+  }
 };
